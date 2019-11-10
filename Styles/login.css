@@ -1,0 +1,99 @@
+body {
+    background-image: url(../Img/login/Background.jpg);
+    background-size: 100%;
+    
+}
+
+.conteiner{
+    width: 1140px;
+    height: 100%;
+    display: flex;
+    margin: auto;
+}
+
+.logologin{
+    background-color: #333333;
+    width: 100%;
+    display: inline-flex;
+    /*width: 400px;*/
+    height: 68px;
+    
+   
+}
+
+.logologin h3{
+    display: block;
+  color: #ffffff;
+  font-size: 30px;
+  margin: 0px;
+  padding: 15px 10px;
+  text-shadow: 3px 2px #8c8c8c;
+}
+#boxlogin{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    background-color: #e3e3e3;
+    border: 1px solid #8c8c8c;
+       
+    width: 450px;
+    height: 550px;   
+}
+#IdModal{
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    background-color: #e3e3e3;
+    border: 1px solid #8c8c8c;
+    width: 450px;
+    height: 550px; 
+      
+}
+
+#textomodal{
+    padding: 25px;
+    margin: 0;
+    margin-bottom: 0;
+}
+
+#textomodal > h3 {
+    text-align: center;
+}
+
+
+
+
+.campo{
+    width: 75%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    padding: 12px 20px 12px 40px;
+    opacity: 0.8;
+}
+
+
+.button{
+    width: auto;
+    color: #ffffff;
+    box-sizing: border-box;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color:#333333;
+    padding: 15px;
+    
+}
+.voltareprosseguir{
+    width: 50%;
+    display: flex;
+    
+    justify-content:space-around;
+}
+

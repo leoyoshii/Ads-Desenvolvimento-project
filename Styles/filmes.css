@@ -1,0 +1,31 @@
+.conteiner_titulo{
+  background-image: url(../Img/filmes/background-filmes.jpg);
+}
+#tab_filmes {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#tab_filmes td, #tab_filmes th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#tab_filmes tr:hover td{
+  background-color: #d9edf7;
+}
+
+#tab_filmes th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #30779a;
+  color: white;
+}
+
+.penrose{
+  float: left;
+  width: 200px;
+  height: 200px;
+}
+

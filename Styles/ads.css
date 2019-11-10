@@ -1,0 +1,23 @@
+.conteiner_titulo{
+  background-image: url(../Img/ads/background-ads.jpeg);
+}
+
+#tab_ads {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#tab_ads td, #tab_ads th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#tab_ads tr:nth-child(even){background-color: #d9edf7;}
+
+#tab_ads th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #30779a;
+  color: white;
+}

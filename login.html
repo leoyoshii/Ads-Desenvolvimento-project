@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title> Leonardo Yoshii</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="styles/index.css" />
+        <link rel="stylesheet" type="text/css" href="styles/login.css" />
+        <script type="text/javascript" src="Script\login.js"></script>
+        <script src="https://kit.fontawesome.com/6c05471e71.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="conteiner">
+            <form id="boxlogin">
+                <div class="logologin">
+                    <img class="my_img_logo"src= img/icone-ly.jpg>
+                    <h3>Leonardo Yoshii</h3>
+                </div>
+                
+                <input class="campo" type="text" name="nome" id="idnome" placeholder="Nome Completo" required>
+                <input class="campo" type="email" name="email" id="idemail" placeholder="exemplo@exemplo.com" required>
+                <input class="campo" type="password" name="pass" id="idpass" placeholder="Senha" required>
+                <input class="campo" type="password" name="repass" id="idrepass" placeholder="Confirme a senha" required>
+                <button class="button" type="button"  value="Enviar" onclick="validar()">Enviar</button>
+            </form>
+            <div id="IDmodal" >
+                <div class="logologin">
+                    <img class="my_img_logo"src= img/icone-ly.jpg>
+                    <h3>Leonardo Yoshii</h3>
+                </div>
+                        
+                <h2>Seja Bem-Vindo</h2>
+                
+                <div id="textomodal" ></div>
+                <span id="checked" style="font-size:5em; color:green; margin: 25px;"><i class="far fa-check-circle"></i></span>
+                <span id="nochecked" style="font-size:5em; color:red; margin: 25px;"><i class="far fa-times-circle"></i></span>
+               
+               
+                <div class="voltareprosseguir">
+                    <button class= button id="idvoltar" value="voltar" onclick="voltar()" >Voltar</button>
+                    <button class= button id="idprosseguir" value="prosseguir" onclick="prosseguir()" >Prosseguir</button>
+                </div>
+                
+            </div>
+        </div>
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
